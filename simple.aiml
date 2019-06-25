@@ -1,0 +1,27 @@
+<aiml>
+<category>
+<pattern>oi</pattern>
+<template>Ola, tudo bem?###</template>
+</category>
+
+<category>
+<pattern>Jarvis</pattern>
+<template>Esse é meu nome!</template>
+</category>
+
+
+
+<category>
+<pattern>qual o seu nome?</pattern>
+<template>
+<random>
+<li>Sou chamado de chatterbot</li>
+<li>Me chamo chatterbot</li>
+<li>Chatterbot</li>
+<li>pode me chamar de chatterbot</li>
+</random>
+</template>
+</category>
+
+
+</aiml>
