@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#teste de chatbot para automação residencial --Jarvis -- 
+#teste de chatbot  --Jarvis -- 
 #teste 1 usando a biblioteca aiml.py - 25/06/2019
 
 import telepot #classe para faser conexao com telegram 
@@ -17,6 +17,7 @@ telegram = telepot.Bot('Token do Chatbot Telegram')
 #funcao utilizada para receber menssagens 
 def recebendoMSg(msg):
 	fala = (msg['text'])
+	#imprime na tela o que o usuario digitou no bot telegram
 	print(fala)
 	resp = kernel.respond(fala)	
 	tipoMsg, tipoChat, chatID = telepot.glance(msg)
